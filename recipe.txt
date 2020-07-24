@@ -1,0 +1,83 @@
+################# SYSTEM DATA ###############
+system_final_volume:23
+system_efficiency:0.7
+yeast_att:0.75
+##
+################# BASE MALT ###############
+malt_pilsner:0
+malt_pale_ale:4.5
+malt_wheat:0
+dry_extract:0
+liquid_extract:0
+##
+################# SPECIAL MALT ###############
+#### light ####
+malt_crystal:0.5
+malt_maris_otter:0
+malt_vienna:0
+malt_munich:0
+malt_biscuit:0
+malt_rye:0
+malt_special_b:0.5
+malt_cara_pils:0.3
+malt_cara_vienna:0
+malt_cara_munich:0
+malt_acid:0
+#### dark ####
+malt_chocolate:0
+malt_black:0
+malt_roasted_barley:0
+################## FLAKES ###############
+flaked_barley:0
+flaked_wheat:0
+flaked_oat:0
+flaked_corn:0
+flaked_rice:0
+################## sugar ###############
+white_sugar:0
+brown_sugar:0
+honey:0
+##
+################ HOPS ####################
+##gr-min-aa-0/1 pellets/fiori
+##
+hop:bitter:25:60:12:0
+hop:bitter:15:60:6:0
+hop:taste:40:10:6:0
+hop:taste:20:5:8:0
+hop:flav:40:0:6:0
+hop:flav:30:0:13:0
+##
+################## BREW PROCESS ###############
+##fitasi 	-> 30-52C per 20-40min 
+##protein_rest 	-> 45-55C per 10-20min (necessaria se cereali non maltati)
+##beta_amilasi 	-> 54-68C -> birra alcolica, secca e poco dolce 
+##alpha_amilasi	-> 63-76C -> birra poco alcolica e molto dolce
+##beta+alpha <= 60min totali
+##mash <= 90min
+##mash pause 5-10min
+#################################################
+##single step OR
+##temp min
+brew:mash:single_step:66:0
+##
+##
+##multi step
+##temp min
+brew:mash:fitasi:40:20
+brew:mash:proteinrest:50:10
+brew:mash:betamilasi:61:20
+brew:mash:alphamilasi:71:20
+brew:mash:mashout:78:10
+brew:mash:pause:5
+brew:sparge:78:10
+brew:sparge:pause:5
+brew:boil:93:70
+##
+##gr-min
+brew:spice:0:5
+brew:sugar:0:5
+brew:honey:0:5
+
+
+
